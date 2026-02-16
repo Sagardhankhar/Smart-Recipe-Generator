@@ -1,0 +1,41 @@
+.favorites {
+  width: 100%;
+  padding: 40px 60px;
+}
+
+.favorites-title {
+  font-size: 34px;
+  font-weight: 800;
+  color: tomato;
+}
+
+.favorites-subtitle {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #666;
+}
+
+.favorites-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.no-fav {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .favorites {
+    padding: 30px 20px;
+  }
+
+  .favorites-title {
+    font-size: 26px;
+  }
+}

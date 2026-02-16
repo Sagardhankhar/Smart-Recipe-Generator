@@ -1,0 +1,15 @@
+.rating-stars {
+  margin-top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  color: #d1d5db;
+  margin-right: 5px;
+  transition: 0.2s;
+}
+
+.star.active {
+  color: gold;
+}

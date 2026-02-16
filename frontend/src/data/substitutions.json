@@ -1,0 +1,9 @@
+{
+  "butter": ["olive oil", "ghee"],
+  "milk": ["almond milk", "soy milk"],
+  "egg": ["banana", "flax seeds"],
+  "cream": ["milk", "yogurt"],
+  "cheese": ["paneer", "tofu"],
+  "wheat flour": ["oats flour", "rice flour"],
+  "soy sauce": ["salt + vinegar"]
+}

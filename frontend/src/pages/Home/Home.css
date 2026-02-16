@@ -1,0 +1,52 @@
+.home {
+  width: 100%;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.home-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: tomato;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.home-btn {
+  width: fit-content;
+  padding: 12px 24px;
+  background-color: tomato;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #e11d1d;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .home {
+    padding: 30px 20px;
+  }
+
+  .home-title {
+    font-size: 32px;
+  }
+
+  .home-subtitle {
+    font-size: 16px;
+  }
+}
