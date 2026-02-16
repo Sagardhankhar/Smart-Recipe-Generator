@@ -1,4 +1,3 @@
-# Smart-Recipe-Generator
 # 🍅 Smart Recipe Generator
 
 Smart Recipe Generator is a web application that suggests recipes based on user-provided ingredients.  
